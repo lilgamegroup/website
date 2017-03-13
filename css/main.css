@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css?family=Baloo+Bhaina');
+
+body {
+	margin-top: 10%;
+	height: 100%;
+	background: #3498db;
+	color: white;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'Baloo Bhaina';
+	line-height: 1em;
+}
+
+h4 {
+	font-size: 2em;
+	text-transform: uppercase;
+	text-align: center;
+	margin-bottom: -1em;
+}
+
+h1 {
+	font-size: 4em;
+	text-transform: lowercase;
+	text-align: center;
+}
+
+h2 {
+	font-size: 2em;
+	text-transform: lowercase;
+	text-align: center;
+}
+
+a {
+	-moz-transition: all .3s;
+    -o-transition: all .3s;
+    -webkit-transition: all .3s;
+    transition: all .3s;
+
+	text-decoration: none;
+	color: white;
+}
+
+a:hover {
+	color: rgba(255, 255, 255, 0.5);
+}
+
+a:active {
+	color: rgba(255, 255, 255, 0.3);
+}
